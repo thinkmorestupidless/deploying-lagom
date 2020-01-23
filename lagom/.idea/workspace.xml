@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34ae4dee-6294-4b8c-9ac8-d22031cc2963" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WNZJxJtgzANA8MQmfksquwlA4j" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hello" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="lagom-internal-meta-project-kafka [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hello-stream-api [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/hello-stream-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hello-impl [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/hello-impl" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="lagom-internal-meta-project-service-locator [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-service-locator" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hello-stream-impl [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/hello-stream-impl" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="lagom-internal-meta-project-cassandra [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-cassandra" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hello-api [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$/hello-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hello [file:/Users/trevorburton-mccreadie/projects/lightbend-gsa/bp/lagom/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hello-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4736894447933" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1761591353" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1479085577" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/akka-quickstart-scala 2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/akka-sample-cluster-docker-compose-scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/akka-samples-persistence-scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/call-record-aggregator-app" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/lagom-gdpr-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lagom/lagom-samples-client-restaurant/lagom-client-restaurant" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lagom/lagom-samples/shopping-cart/shopping-cart-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Waves" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Waves/node" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../amdocs/akka-streams-jdbc-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../es-demos/shoppingcartapp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ey/cloudflow/examples/call-record-aggregator" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../pipelines-workshop-creditcards" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../pipelines-workshop-creditcards/java/1-hello-world" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend-training/LRO-K-lightbend-reactive-operations-with-kubernetes/exercises/apps/reactivebbq-online-orders-lagom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend-training/LRO-K-lightbend-reactive-operations-with-kubernetes/exercises/solutions/14-deploy-lagom-cluster-kubernetes/reactivebbq-online-orders-lagom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend-training/LTS-P-lightbend-akka-streams-for-scala-professional" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend/lagom-recipes/mixed-persistence/mixed-persistence-scala-sbt" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend/pipelines-examples-internal/mixed-sensors" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend/pipelines-examples/sensor-data-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../lightbend/pipelines-examples/sensor-data-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pipelines-examples/sensor-data-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pipelines-model-serving" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../play-ws" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/alan/pouncing-on-horses/services" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/alan/pouncing-working-copy/services" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/cloudfow-azure-devops-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/fabulous-pirates/lagom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/fabulous/lagom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/play-pac4j-scala-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../thinkmorestupid/silhouette-macwire" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34ae4dee-6294-4b8c-9ac8-d22031cc2963" name="Default Changelist" comment="" />
+      <created>1578991944176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578991944176</updated>
+      <workItem from="1578991945716" duration="7207000" />
+      <workItem from="1579087325323" duration="420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,67 @@
+apiVersion: "apps/v1beta2"
+kind: Deployment
+metadata:
+  name: hello
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello
+
+  template:
+    metadata:
+      labels:
+        app: hello
+    spec:
+      containers:
+        - name: hello
+          image: "hello-impl:latest"
+          imagePullPolicy: Always
+          env:
+            - name: JAVA_OPTS
+              value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
+            - name: CASSANDRA_SERVICE_NAME
+              value: "_cql._tcp.cassandra.default.svc.cluster.local"
+            - name: KAFKA_SERVICE_NAME
+              value: "_clients._tcp.pipelines-strimzi-kafka-brokers.default.svc.cluster.local"
+            - name: REQUIRED_CONTACT_POINT_NR
+              value: "3"
+          resources:
+            limits:
+              memory: 512Mi
+            requests:
+              cpu: 0.25
+              memory: 512Mi
+          ports:
+            - name: management
+              containerPort: 8558
+            - name: cinnamon
+              containerPort: 9001
+          readinessProbe:
+            httpGet:
+              path: "/ready"
+              port: management
+            periodSeconds: 10
+            failureThreshold: 10
+            initialDelaySeconds: 20
+          livenessProbe:
+            httpGet:
+              path: "/alive"
+              port: management
+            periodSeconds: 10
+            failureThreshold: 10
+            initialDelaySeconds: 20
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-service
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 9000
+  selector:
+    app: hello
+  type: LoadBalancer
