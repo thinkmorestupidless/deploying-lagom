@@ -16,14 +16,16 @@ spec:
       containers:
         - name: hello
           image: "hello-impl:1.0-SNAPSHOT"
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           env:
             - name: JAVA_OPTS
               value: "-Xms256m -Xmx256m -Dconfig.resource=prod-application.conf"
+            - name: APPLICATION_SECRET
+              value: this-is-an-application-secret
             - name: CASSANDRA_SERVICE_NAME
               value: "_cql._tcp.cassandra.default.svc.cluster.local"
             - name: KAFKA_SERVICE_NAME
-              value: "_clients._tcp.pipelines-strimzi-kafka-brokers.default.svc.cluster.local"
+              value: "_clients._tcp.my-cluster-kafka.kafka.svc.cluster.local"
             - name: REQUIRED_CONTACT_POINT_NR
               value: "3"
           resources:
