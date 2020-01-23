@@ -9,6 +9,12 @@ minikube start --cpus 4 --memory 8192 --kubernetes-version=1.15.6
 eval $(minikube docker-env)
 ```
 
+## Build the Lagom Services as Docker images
+```
+cd lagom
+sbt docker:publishLocal
+```
+
 ## Deploy Strimzi
 Follow instructions at https://strimzi.io/quickstarts/minikube/
 
@@ -27,18 +33,14 @@ kubectl apply -f https://raw.githubusercontent.com/strimzi/strimzi-kafka-operato
 ```
 
 ## Deploy Cassandra
-There's no operator for Cassandra so use StatefulSets
+There's no operator for Cassandra so use StatefulSets (this can take a while to bring up all 3 nodes)
 ```
 kubectl apply -f deploy/cassandra
 ```
 
-## Build the Lagom Services
-```
-cd lagom
-sbt runAll
-```
-
 ## Deploy the Lagom Services
 ```
+# create the rbac rules that allow akka pods to find each other and cluster
+# creates the deployment for the 'hello' service and a kubernetes service to expose it
 kubectl apply -f deploy/lagom
 ```
