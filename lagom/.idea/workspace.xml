@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ae4dee-6294-4b8c-9ac8-d22031cc2963" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../deploy/lagom/hello.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../deploy/lagom/hello.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +34,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578991944176</updated>
       <workItem from="1578991945716" duration="7207000" />
-      <workItem from="1579087325323" duration="741000" />
+      <workItem from="1579087325323" duration="9908000" />
     </task>
     <servers />
   </component>

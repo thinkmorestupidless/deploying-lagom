@@ -10,9 +10,17 @@ eval $(minikube docker-env)
 ```
 
 ## Build the Lagom Services as Docker images
+
+### With SBT
 ```
 cd lagom
 sbt docker:publishLocal
+```
+
+### With Maven
+```
+cd lagom
+mvn package docker:build
 ```
 
 ## Deploy Strimzi
